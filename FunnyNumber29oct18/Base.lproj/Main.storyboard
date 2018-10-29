@@ -32,6 +32,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="1h1-vv-x1B">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="134"/>
+            <point key="canvasLocation" x="192.75362318840581" y="133.92857142857142"/>
         </scene>
         <!--Article-->
         <scene sceneID="nDx-fz-M82">
@@ -73,4 +77,7 @@
             <point key="canvasLocation" x="1051" y="134"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Wallpaper" width="2768" height="1848"/>
+    </resources>
 </document>
