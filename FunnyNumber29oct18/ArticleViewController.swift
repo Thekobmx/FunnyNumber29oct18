@@ -10,21 +10,46 @@ import UIKit
 
 class ArticleViewController: UIViewController {
 
+    
+//    Explicit
+    var currentNumberInt: Int = 0
+    var myClass = MyClass()
+    
+    
+    
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    
+    @IBAction func decreaseButton(_ sender: Any) {
+        
+        
+        myClass.myNumberInt = currentNumberInt
+        currentNumberInt = myClass.decreaseArticle()
+        numberLabel.text = myClass.articleNumberString[currentNumberInt]
+        
+    }
+    
+    
+    @IBAction func increaseButton(_ sender: Any) {
+        
+        myClass.myNumberInt = currentNumberInt
+        currentNumberInt = myClass.increaseArticle()
+        numberLabel.text = myClass.articleNumberString[currentNumberInt]
+        
+    }
+    
+    
+    @IBAction func homeButton(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        
+    } //ViewDidLoad
     
 
-    /*
-    // MARK: - Navigation
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+} //Main Class
