@@ -13,6 +13,7 @@
 		AC1D919F2186F79000EF3A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1D919E2186F79000EF3A66 /* Assets.xcassets */; };
 		AC1D91A22186F79000EF3A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1D91A02186F79000EF3A66 /* LaunchScreen.storyboard */; };
 		AC1D91AA2186FB5E00EF3A66 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D91A92186FB5E00EF3A66 /* ArticleViewController.swift */; };
+		AC1D91AC2188004100EF3A66 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D91AB2188004100EF3A66 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC1D91A12186F79000EF3A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1D91A32186F79000EF3A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC1D91A92186FB5E00EF3A66 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		AC1D91AB2188004100EF3A66 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				AC1D91972186F78D00EF3A66 /* AppDelegate.swift */,
 				AC1D91992186F78D00EF3A66 /* ViewController.swift */,
+				AC1D91AB2188004100EF3A66 /* MyClass.swift */,
 				AC1D919B2186F78D00EF3A66 /* Main.storyboard */,
 				AC1D91A92186FB5E00EF3A66 /* ArticleViewController.swift */,
 				AC1D919E2186F79000EF3A66 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1D91AC2188004100EF3A66 /* MyClass.swift in Sources */,
 				AC1D919A2186F78D00EF3A66 /* ViewController.swift in Sources */,
 				AC1D91AA2186FB5E00EF3A66 /* ArticleViewController.swift in Sources */,
 				AC1D91982186F78D00EF3A66 /* AppDelegate.swift in Sources */,

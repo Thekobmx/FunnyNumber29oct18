@@ -38,11 +38,23 @@
                                 <rect key="frame" x="0.0" y="809" width="414" height="53"/>
                                 <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <barButtonItem title="Item" image="ArrowBack" id="hg3-LY-rBr"/>
+                                    <barButtonItem title="Item" image="ArrowBack" id="hg3-LY-rBr">
+                                        <connections>
+                                            <action selector="decreaseButton:" destination="BYZ-38-t0r" id="VNl-uk-qq1"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="ifz-j6-Jo0"/>
-                                    <barButtonItem title="Item" image="Home" id="BHz-oS-4Ev"/>
+                                    <barButtonItem title="Item" image="Home" id="BHz-oS-4Ev">
+                                        <connections>
+                                            <action selector="homeButton:" destination="BYZ-38-t0r" id="5Db-FF-J58"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="sJ4-Nd-mgn"/>
-                                    <barButtonItem title="Item" image="ArrowForward" id="lCH-kv-bvC"/>
+                                    <barButtonItem title="Item" image="ArrowForward" id="lCH-kv-bvC">
+                                        <connections>
+                                            <action selector="increaseButton:" destination="BYZ-38-t0r" id="gIS-De-ytU"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
@@ -71,6 +83,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="tLj-K0-Foc" id="SS1-Kz-dJx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
