@@ -47,7 +47,7 @@
                                 <color key="tintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLj-K0-Foc">
-                                <rect key="frame" x="0.0" y="328.5" width="414" height="239"/>
+                                <rect key="frame" x="20" y="328.5" width="374" height="239"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="200"/>
                                 <color key="textColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -56,19 +56,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="PSW-Mz-8Vf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8ic-RI-1va"/>
-                            <constraint firstItem="tLj-K0-Foc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AF5-n8-ic8"/>
+                            <constraint firstItem="tLj-K0-Foc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fay-Kg-yIr"/>
                             <constraint firstItem="Qon-xu-tuX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GVX-Xb-cRK"/>
                             <constraint firstItem="PSW-Mz-8Vf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HYz-h7-6HY"/>
                             <constraint firstItem="Qon-xu-tuX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KVJ-K6-BKa"/>
-                            <constraint firstItem="tLj-K0-Foc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NEV-Yn-Szd"/>
                             <constraint firstItem="PSW-Mz-8Vf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Rcf-MG-M7J"/>
-                            <constraint firstItem="tLj-K0-Foc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vzg-XC-hUU"/>
+                            <constraint firstItem="tLj-K0-Foc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cnH-Ia-T8H"/>
                             <constraint firstItem="1h1-vv-x1B" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ngA-BM-oOa"/>
                             <constraint firstItem="Qon-xu-tuX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pIP-FN-w6n"/>
                             <constraint firstItem="1h1-vv-x1B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u1c-Tl-0BY"/>
                             <constraint firstItem="1h1-vv-x1B" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uWE-1c-MwM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tLj-K0-Foc" secondAttribute="trailing" constant="20" id="wH9-VN-Wbt"/>
                             <constraint firstItem="1h1-vv-x1B" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wxm-pW-rzK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tLj-K0-Foc" secondAttribute="trailing" id="ziJ-18-4dG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
